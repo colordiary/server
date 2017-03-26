@@ -1,0 +1,74 @@
+[ 
+  {
+    "index": 0,
+    "hexColor": "#8181FC",
+    "mood": "sad",
+    "path": "/assets/blue1.svg"
+  },
+  {
+    "index": 1,
+    "hexColor": "#6CB1BC",
+    "mood": "relaxed",
+    "path": "/assets/green1.svg"
+  },
+  {
+    "index": 2,
+    "hexColor": "#F2B451",
+    "mood": "happy",
+    "path": "/assets/yellow1.svg"
+  },
+  {
+    "index": 3,
+    "hexColor": "#E55C5C",
+    "mood": "angry",
+    "path": "/assets/red1.svg"
+  },
+  {
+    "index": 4,
+    "hexColor": "#A8B3E2",
+    "mood": "stressed",
+    "path": "/assets/blue2.svg"
+  },
+  {
+    "index": 5,
+    "hexColor": "#ACE8CB",
+    "mood": "tired",
+    "path": "/assets/green2.svg"
+  },
+  {
+    "index": 6,
+    "hexColor": "EDD364",
+    "mood": "excited",
+    "path": "/assets/yellow2.svg"
+  },
+  {
+    "index": 7,
+    "hexColor": "#E2A6A6",
+    "mood": "fearful",
+    "path": "/assets/red2.svg"
+  },
+  {
+    "index": 8,
+    "hexColor": "#D3D2F9",
+    "mood": "frustrated",
+    "path": "/assets/blue3.svg"
+  },
+  {
+    "index": 9,
+    "hexColor": "#E2EFAC",
+    "mood": "bored",
+    "path": "/assets/green3.svg"
+  },
+  {
+    "index": 10,
+    "hexColor": "#F7E7A4",
+    "mood": "content",
+    "path": "/assets/yellow3.svg"
+  },
+  {
+    "index": 11,
+    "hexColor": "#F4C9C9",
+    "mood": "anxious",
+    "path": "/assets/red3.svg"
+  }
+]

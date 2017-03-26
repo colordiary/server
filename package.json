@@ -1,0 +1,40 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "fullstack-401-final",
+  "main": "server",
+  "scripts": {
+    "lint": "eslint {lib, test}/*/*.js",
+    "pretest": "npm run lint",
+    "test": "mocha --recursive",
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Brigitte, Tom, Lynn, and Claire",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/colordiary/server/issues"
+  },
+  "homepage": "https://github.com/colordiary/server",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "eslint": "^3.18.0",
+    "mocha": "^3.2.0",
+    "nodemon": "^1.11.0",
+    "promise": "^7.1.1",
+    "superagent": "^3.5.2"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "jsonwebtoken-promisified": "^1.0.3",
+    "mongoose": "^4.9.1",
+    "mongoose-validators": "^0.1.0",
+    "morgan": "^1.8.1"
+  }
+}
