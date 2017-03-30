@@ -5,19 +5,19 @@ const assert = require('chai').assert;
 const User = require('../lib/models/user');
 
 describe('testing the user schema', () => {
-    
-    it('validates email and username', () => {
-
         const testOne = new User({ 
             username: 'colordiary',
             email: 'not correct email format',
             password: 'password',
         })
-        testOne.save(function(err) {
-            if (err) return res.end();
-            return res.sendStatus(201);
-        });
-        
+        const testTwo = new User({ 
+            username: 'testTwo',
+            email: 'colordiary@gmail.com',
+            password: 'password',
+        })
+    
+    it('validates email and username', () => {
+
         //validtor returns true or false, in this case we are purposely setting it to false to test
         const emailVal = validator.isEmail(testOne.email);
 
@@ -33,17 +33,6 @@ describe('testing the user schema', () => {
     })
 
     it('saves new user and assigns hash and user id, checks if properties are correct', () => {
-        
-        const testTwo = new User({ 
-            username: 'testTwo',
-            email: 'colordiary@gmail.com',
-            password: 'password',
-        })
-        testTwo.save(function(err) {
-            if (err) return res.end();
-            return res.sendStatus(201);
-        });
-
         //username matches
         assert.equal(testTwo.username, 'testTwo')
 
