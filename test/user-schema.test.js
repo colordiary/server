@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const validator = require('validator');
 const Schema = mongoose.Schema;
 const assert = require('chai').assert;
-const User = require('../lib/models/user-schema');
+const User = require('../lib/models/user');
 
 describe('testing the user schema', () => {
     
