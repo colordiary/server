@@ -9,6 +9,7 @@ const weatherApi = require('../lib/routes/weather-api');
 const apiKey = process.env.WEATHER_API_KEY;
 const requestProxy = require('request-promise');
 
+
 let moodOne;
 
 describe('saves new user, color, and block number so we can test and populate the mood schema', () => {
