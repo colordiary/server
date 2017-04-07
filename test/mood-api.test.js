@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-const Schema = mongoose.Schema;
 const assert = require('chai').assert;
 const User = require('../lib/models/user');
 const Mood = require('../lib/models/mood');
@@ -13,6 +12,9 @@ const requestProxy = require('request-promise');
 let moodOne;
 
 describe('saves new user, color, and block number so we can test and populate the mood schema', () => {
+    
+    // tests with no "assert" are not really tests :(
+
     
     it('tests the mood schema with each field populated', () => {
         //saving new user
