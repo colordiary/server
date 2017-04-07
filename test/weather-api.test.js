@@ -52,16 +52,13 @@ describe('posts a new entry with weather added to it', () => {
     });
 
     it('', () => {
-       return request('/api/user/add')
-        .set('Authorization', process.env.TOKEN)
-        .send(newEntry)
-        .then(res => {
-            res = res.body;
-            console.log(res.body)
-        })
-        .then(res => {
-            res.body = newEntry;
-        })
+        return request('/api/user/add')
+            .set('Authorization', process.env.TOKEN)
+            .send(newEntry)
+            .then(res => {
+                res = res.body;
+                console.log(res.body)
+            });
     })
 })
 

@@ -5,16 +5,16 @@ const assert = require('chai').assert;
 const User = require('../lib/models/user');
 
 describe('testing the user schema', () => {
-        const testOne = new User({ 
-            username: 'colordiary',
-            email: 'not correct email format',
-            password: 'password',
-        })
-        const testTwo = new User({ 
-            username: 'testTwo',
-            email: 'colordiary@gmail.com',
-            password: 'password',
-        })
+    const testOne = new User({ 
+        username: 'colordiary',
+        email: 'not correct email format',
+        password: 'password',
+    })
+    const testTwo = new User({ 
+        username: 'testTwo',
+        email: 'colordiary@gmail.com',
+        password: 'password',
+    })
     
     it('validates email and username', () => {
 

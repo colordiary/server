@@ -1,7 +1,5 @@
 # Server
 
-
-
 ### Models
 
 1. User
@@ -70,6 +68,7 @@ Color {
 ### Connection and Server
 
 ### Dependencies
+You don't want to duplicate this from the package.json, doesn't really add much
 
 - Express
 - MongoDB/Mongoose
